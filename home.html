@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="nav-bar">
+    <h1>Harish Malav</h1>
+    <span class="menubtn" onclick="openmenu()">&#9776;</span>
+    <div class="main-menu">
+      <ul id="menu">
+        <li><a href="#home" class="hm">Home</a></li>
+        <li><a href="#about" class="hm">About Me</a></li>
+        <li><a href="#projects" class="hm">Projects</a></li>
+        <li><a href="#skills" class="hm">Skills</a></li>
+        <li><a href="#Contact" class="hm">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="home">
+    <div class="container">
+      <div class="text-content">
+        <h2>I'm Harish Malav</h2>
+        <p>Full Stack Developer(Python)</p>
+        <a href="https://github.com/harishmalav" class="btn">View Projects</a>
+        <a href="https://drive.google.com/file/d/192iEM4ZXRqpERf8BeVv509G-sEJucJY3/view?usp=sharing" class="btn">Download CV</a>
+      </div>
+      <div class="image-content">
+        <img src="image/IMG_20231210_140328_329.jpg" alt="Harish Malav">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm <strong>Harish Malav</strong>, a passionate B.Tech 4th year student pursuing my degree in Computer
+          Science in <b> Modi institute of technology Kota </b>.
+          I am both a <strong>Front-end</strong> and <strong>Back-end Developer (Ptyhon)</strong>, constantly learning and
+          improving my skills.
+          I have completed a <strong>Basic Cyber Security Course (Basic)</strong> and love working on dynamic and user-friendly
+          websites.
+          Currently, I am focusing more on building robust backend systems and crafting beautiful UIs.
+        </p>
+        <p>
+          I believe in clean code, continuous learning, and building solutions that solve real-world problems.
+          Whether it's designing sleek interfaces or developing powerful server-side logic, I'm always excited to grow
+          and contribute.
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="image/DSC_8259.JPG" alt="About Harish Malav" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <div class="projects-container">
+      <h2>My Projects</h2>
+      <div class="projects-grid"> 
+
+        <div class="project-card">
+          <h3><a href="https://github.com/harishmalav" class="btn">Doctor Finder</a></h3>
+          <p>Find the best doctors in your city with a simple and fast interface.</p>
+        </div>
+
+        <div class="project-card">
+          <h3><a href="https://github.com/harishmalav" class="btn">Student Fees Management</a></h3>
+          <p>A system to manage coaching institute student fee records efficiently.</p>
+        </div>
+
+        <div class="project-card">
+          <h3><a href="https://github.com/harishmalav" class="btn">Food Order</a></h3>
+          <p>Order food online for campus or canteen delivery with ease.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="skills">
+    <div class="skills-container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">C</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Bootstrap</div>
+        <div class="skill-card">Flask</div>
+        <div class="skill-card">Django</div>
+        <div class="skill-card">Cyber Security</div>
+
+      </div>
+    </div>
+  </section>
+
+<section id="Contact">
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <form id="contactForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="text" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="phone">Your Phone:</label>
+      <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <p>&copy; 2025 Harish Malav. All rights reserved.</p>
+  </div>
+  <div class="social-icon">
+    <a href="https://www.instagram.com/harish_malav11/"><img src="image/2227 copy.jpg"></a>
+    <a href="https://wa.me/+919875089423"><img src="image/410201-PD391H-802.jpg"></a>
+    <a href="https://www.linkedin.com/in/harish-malav-73a99131a/"><img src="image/linkedin.png"></a>
+
+  </div>
+</footer>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
