@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://harishmalav.netlify.app/</loc>
+    <lastmod>2025-08-13</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://harishmalav.netlify.app/about</loc>
+    <lastmod>2025-08-13</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://harishmalav.netlify.app/contact</loc>
+    <lastmod>2025-08-13</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Add more pages here if your site has them -->
+  <!-- Example:
+  <url>
+    <loc>https://harishmalav.netlify.app/projects</loc>
+    <lastmod>2025-08-13</lastmod>
+    <priority>0.70</priority>
+  </url>
+  -->
+
+</urlset>
