@@ -7,6 +7,7 @@ function openmenu() {
     x.style.display = "block";
   }
 }
+
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("contactForm").addEventListener("submit", async function (e) {
     e.preventDefault();
