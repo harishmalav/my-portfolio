@@ -1,4 +1,1 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://harishmalav.net/sitemap.xml
+Sitemap: https://harishmalav.netlify.app/sitemap.xml
